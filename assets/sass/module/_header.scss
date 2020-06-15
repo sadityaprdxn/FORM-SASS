@@ -30,3 +30,32 @@ header {
 		}
 	}
 }
+
+
+@media only screen and (max-width: 995px) {
+	header .wrapper ul {
+
+		.horizontal-line { width: 35%; }
+
+		li:nth-child(2) { 
+			width: 10%;
+			margin: 0 4%;
+		}
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	header {
+		padding: 4% 0;
+		
+		.wrapper ul {
+
+			.horizontal-line { display: none; }
+
+			li:nth-child(2) { 
+				width: 15%;
+				margin: 0 4%;
+			}
+		}
+	}
+}

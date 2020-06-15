@@ -39,9 +39,9 @@
 
 		&.active {
 			
-			.sign-in-form {	left: 0; }
+		.sign-in-form {	left: 0; }
 
-			.sign-up-form { left: 100%; }
+		.sign-up-form { left: 100%; }
 		}
 	}
 
@@ -122,10 +122,6 @@
 			text-transform: capitalize;
 			font-family: 'brusher';
 			transition: 0.3s ease-in-out;
-
-			&:hover {
-				transform: scale(1.04);
-			}
 		}
 	}
 
@@ -159,8 +155,6 @@
 				top: 0;
 				left: 0;
 			}
-
-			&:hover {	background-color: #000;	}
 		}
 
 		&.active {
@@ -182,6 +176,7 @@
 		}
 	}
 }
+
 
 .green {
 	text-indent: -9999px;
@@ -220,5 +215,32 @@
 	}
 }
 
-.form-group span,
-footer { display: none; }
+.form-group span { display: none; }
+
+@media only screen and (max-width: 1024px) {
+
+	button:hover { transform: scale(1.04); }
+
+	.pannel-container a:hover {	background-color: #000;	}
+}
+
+@media only screen and (max-width: 995px) {
+	.banner {
+
+		.form-section {	width: 50%;	}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.banner {
+		
+		.form-section {	width: 70%;	}
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.banner {
+		
+		.form-section {	width: 85%;	}
+	}
+}
