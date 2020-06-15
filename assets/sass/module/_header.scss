@@ -8,6 +8,16 @@ header {
 		max-width: 100%;
 		width: 100%;
 
+		h1 { 
+			font-family: 'brusher';
+			font-size: 45px;
+			text-align: center;
+
+			a {
+				color: #FFF;
+			}
+		}
+
 		ul {
 			display: flex;
 			flex-direction: row;
@@ -47,7 +57,7 @@ header {
 @media only screen and (max-width: 540px) {
 	header {
 		padding: 4% 0;
-		
+
 		.wrapper ul {
 
 			.horizontal-line { display: none; }
