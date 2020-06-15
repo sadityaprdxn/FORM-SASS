@@ -131,4 +131,49 @@ li {
   width: 90%;
   margin: 0 auto;
 }
+
+header {
+  width: 100%;
+  padding: 1% 0;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+header .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header .wrapper ul .horizontal-line {
+  text-indent: -9999px;
+  width: 40%;
+  height: 1px;
+  background-color: #FFF;
+}
+
+header .wrapper ul li:nth-child(2) {
+  width: 7%;
+  margin: 0 2%;
+}
 /*# sourceMappingURL=style.css.map */
